@@ -6,6 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { en, bs } from "make-plural/plurals";
 import { Helmet } from "react-helmet";
+import { GLOBAL_ROOT_CSS } from "../helpers/common.css";
 
 const theme = createTheme({
 	breakpoints: {
@@ -20,10 +21,10 @@ const theme = createTheme({
 
 	palette: {
 		primary: {
-			// main: GLOBAL_ROOT_CSS.primaryColor,
+			main: GLOBAL_ROOT_CSS.primaryColor,
 		},
 		secondary: {
-			// main: GLOBAL_ROOT_CSS.secondaryColor,
+			main: GLOBAL_ROOT_CSS.secondaryColor,
 		},
 	},
 	typography: {
@@ -31,8 +32,9 @@ const theme = createTheme({
 
 		h1: {
 			fontSize: "60px",
-			// color: GLOBAL_ROOT_CSS.primaryColor,
+			color: GLOBAL_ROOT_CSS.primaryColor,
 			padding: `64px 24px`,
+			textAlign: "center",
 			"@media (max-width:1200px)": {
 				fontSize: "40px",
 				padding: `32px 24px`,
@@ -47,7 +49,7 @@ const theme = createTheme({
 
 		h2: {
 			fontSize: "60px",
-			// color: GLOBAL_ROOT_CSS.primaryColor,
+			color: GLOBAL_ROOT_CSS.primaryColor,
 			padding: `64px 24px 32px 24px`,
 			textAlign: "center",
 			"@media (max-width:1200px)": {
@@ -64,7 +66,7 @@ const theme = createTheme({
 		h3: {
 			fontSize: "32px",
 			padding: "0 24",
-			// color: GLOBAL_ROOT_CSS.primaryColor,
+			color: GLOBAL_ROOT_CSS.primaryColor,
 			"@media (max-width:767px)": {
 				fontSize: "24px",
 			},
@@ -91,7 +93,7 @@ const theme = createTheme({
 
 		h5: {
 			fontSize: "16px",
-			// color: GLOBAL_ROOT_CSS.primaryColor,
+			color: GLOBAL_ROOT_CSS.primaryColor,
 			letterSpacing: "1.5px",
 		},
 

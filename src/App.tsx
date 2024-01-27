@@ -1,9 +1,10 @@
 import React from "react";
+import Authentication from "./components/authentication/Atuhentication";
 
 function App() {
 	return (
 		<div>
-			<header>test</header>
+			<Authentication />
 		</div>
 	);
 }
