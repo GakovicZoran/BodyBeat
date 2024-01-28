@@ -1,12 +1,22 @@
-import React from "react";
-import Authentication from "./components/authentication/Atuhentication";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import BrowserRouter, Routes, Route
 
-function App() {
+import Login from "./components/authentication/Login";
+import Registration from "./components/authentication/Registration";
+
+const App = () => {
 	return (
-		<div>
-			<Authentication />
-		</div>
+		<Router>
+			<Routes>
+				<Route path="/login" element={<Login />} />
+				<Route path="/registration" element={<Registration />} />
+				<Route path="/" element={<Home />} />
+			</Routes>
+		</Router>
 	);
-}
+};
+
+const Home = () => {
+	return <div>HOME</div>;
+};
 
 export default App;

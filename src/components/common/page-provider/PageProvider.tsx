@@ -207,18 +207,16 @@ const PageProvider = ({ children }: any) => {
 							href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
 							rel="stylesheet"
 						/>
-						<title>
-							OctaCode - Make Your Brand Digitally Successful &amp; Authentic
-						</title>
+						<title></title>
 						{/* <link rel="icon" type="octa-code-logo" href={ocMiniLogo} /> */}
 						<meta
 							name="description"
-							content="Show your product / service in the most attractive light with the help of OctaCode - get a FREE quote today!"
+							content="Show your product / service in the most attractive light with the help of - get a FREE quote today!"
 							data-react-helmet="true"
 						/>
 						<meta
 							name="keywords"
-							content="OctaCode, IT Company, Digital Solutions, Software Engineers, Best Software Solutions, Development Steps, Software Development Lifecycle, Best Practices Of QA Software Testing, Functional Software, Proper Software Maintenance, Sucessful Business, Digital Age, Business Requirements, Collaboration, Strategy Development, Cyper Security, Security Infrastructure, Special Solution, Software Development, Consulting, Development, Javascript, Banja Luka, Bosnia and Herzegovina, Global, Outsourcing, Projects, Clients, Products, "
+							content="IT Company, Digital Solutions, Software Engineers, Best Software Solutions, Development Steps, Software Development Lifecycle, Best Practices Of QA Software Testing, Functional Software, Proper Software Maintenance, Sucessful Business, Digital Age, Business Requirements, Collaboration, Strategy Development, Cyper Security, Security Infrastructure, Special Solution, Software Development, Consulting, Development, Javascript, Banja Luka, Bosnia and Herzegovina, Global, Outsourcing, Projects, Clients, Products, "
 							data-react-helmet="true"
 						/>
 						{/* <meta name="thumbnail" content={ocLogo} /> */}
